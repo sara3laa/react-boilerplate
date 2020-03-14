@@ -1,10 +1,18 @@
 import React from 'react';
+import {
+  BrowserRouter,
+  Switch,
+
+} from 'react-router-dom';
 
 
-function App() {
-  return (<div>
-    APP
-  </div>);
+const App: React.FC = () => {
+  return (
+    <>
+    <BrowserRouter>
+    </BrowserRouter>
+    </>
+  )
 }
 
-export default App;
+export default App
